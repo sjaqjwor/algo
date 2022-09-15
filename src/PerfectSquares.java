@@ -1,7 +1,4 @@
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class PerfectSquares {
 
@@ -10,6 +7,7 @@ public class PerfectSquares {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
         System.out.println(result(num));
+
     }
 
     private static int result(int n){
